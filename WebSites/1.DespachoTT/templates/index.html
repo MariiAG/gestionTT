@@ -1,0 +1,250 @@
+{% extends "headFoot.html" %}
+{% block content %}
+<body>
+    <header>
+        <nav class="navegator">
+        <div class="nav-wrapper black">
+            <div id="list" class="col s12">
+                <a href="" id="rpa"><i class="material-icons small left">polymer</i>RPA</a>
+                <a href="../index.html" class="item">Centro de Aplicaciones</a>
+                <a href="index.html" class="item">Gestión Despacho TT</a>
+            </div>
+        </div>
+        <img class="materialboxed" src="Img/background1.jpg">
+        </nav>
+    </header>
+    <div id="body">
+        <table class="responsive-table">
+            <form>
+                <tr>
+                    <td>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="origin">Origen de la falla</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Tecnologia</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Sistema Origen</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Red</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="origin">Region</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Departamento</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Ciudad</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Direccion Nodo</label>
+                        </div> 
+                    </td>
+                    <td>
+                    <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Auto WO</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">SNR</label>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Proveedor</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Grupo</label>
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="origin">Georeferenciacion (HFC)</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate" disabled>
+                        <label class="lbl-tecnology" for="red">Tipo de Orden</label>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col2">
+                                <select class="browser-default lbl-tecnology indigo-text text-darken-4">
+                                    <option value="" disabled selected>Urgencia</option>
+                                    <option value="1">Bajo</option>
+                                    <option value="2">Alto</option>
+                                    <option value="3">Medio</option>
+                                    <option value="4">Inmediata</option>
+                                </select>
+                            </div>
+                            <div class="input-field col2">
+                                <select class="browser-default lbl-tecnology indigo-text text-darken-4">
+                                    <option value="" disabled selected>Impacto</option>
+                                    <option value="1">Ninguno</option>
+                                    <option value="2">Bajo</option>
+                                    <option value="3">Medio</option>
+                                    <option value="4">Alto</option>
+                                    <option value="5">Critico</option>
+                                </select>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="origin">Tiquete origen</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="origin">Categoria OWS</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="red">Subcategoria</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="red">Sistema origen</label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="input-field">
+                        <input id="origin" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="origin">Origen de la falla</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="red">Red</label>
+                        </div>
+                        <div class="input-field">
+                        <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                        <label class="lbl-tecnology indigo-text text-darken-4" for="red">Sistema origen</label>
+                        </div>
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <table class="responsive-table">
+            <tr>
+                <td>
+                <form action="#" id="td-form1">
+                    <div class="col2">
+                    <label>
+                    <input  name="group1" type="radio" value="HFC"/>
+                    <span  id="span-hfc">HFC</span>
+                    </label>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-snr" name="group1" type="radio"/>
+                    <span id="span-snr">SNR</span>
+                    </label>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-fiber" name="group1" type="radio" />
+                    <span id="span-fiber">Fibra Acceso</span>
+                    </label>
+                    </div>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-copper" name="group1" type="radio" />
+                    <span id="span-copper">Cobre</span>
+                    </label>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-client" name="group1" type="radio" />
+                    <span id="span-client">Falla Cliente</span>
+                    </label>
+                    </div>
+                </form>
+                </td>
+                <td id="tdTec" class="indigo darken-4">    
+                    <div class="row white-text">
+                    <h1 id="span-tec" class="lbl-tecnology center">HFC</h1>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field">
+                    <input id="red" type="text" class="validate" disabled>
+                    <label class="lbl-tecnology indigo-text text-darken-4" for="red">CDI</label>
+                    </div>
+                    <div class="input-field">
+                    <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                    <label class="lbl-tecnology indigo-text text-darken-4" for="red">NODO</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field">
+                    <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                    <label class="lbl-tecnology indigo-text text-darken-4" for="red">AMP</label>
+                    </div>
+                    <div class="input-field">
+                    <input id="red" type="text" class="validate blue-grey-text text-darken-2">
+                    <label class="lbl-tecnology indigo-text text-darken-4" for="red">TAP</label>
+                    </div>
+                </td>
+                <td></td>
+                <td>
+                    <form action="#">
+                    <p class="lbl-tecnology">Tipo de Falla</p>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-fiber" name="group2" type="radio" />
+                    <span id="span-fiber">Caida Total</span>
+                    </label>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-copper" name="group2" type="radio" />
+                    <span id="span-copper">Caida parcial</span>
+                    </label>
+                    </div>
+                    <div class="col2">
+                    <label>
+                    <input id="btn-client" name="group2" type="radio" />
+                    <span id="span-client">Alarma</span>
+                    </label>
+                    </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table class="responsive-table">
+            <tr>
+                <td>
+                    <h6 class="lbl-tecnology indigo-text text-darken-4">Descripcion</h6>
+                    <textarea id="textarea" name="comment" maxlength="65525" required="required"></textarea>
+                </td>
+                <td>
+                    <div class="col2">
+                    <button id="btn-update" class="lbl-tecnology btn waves-effect waves-light light-blue right" type="submit" name="action">Actualizar
+                    <i class="material-icons right">autorenew</i>
+                    </button>
+                    </div><br><br>
+                    <div class="col2">
+                    <button id="btn-clean" class="lbl-tecnology btn waves-effect waves-light red right" type="submit" name="action">Limpiar
+                    <i class="material-icons right">backspace</i>
+                    </button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+{% endblock %}
