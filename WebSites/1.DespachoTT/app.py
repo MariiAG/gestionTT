@@ -4,8 +4,9 @@ from flask import Flask, render_template, url_for, request, redirect, jsonify, j
 import mysql.connector
 from flask_cors import CORS, cross_origin
 
-# instalr libreria para conectar con la base de datos pip3 install mysql-connector-python
+# instalar libreria para conectar con la base de datos pip3 install mysql-connector-python
 # instalar pip3 install -U flask-cors para acceder a los datos de la API 
+# instalar nodejs
 myDB = mysql.connector.connect(
     host = "localhost",
     user = "root",
